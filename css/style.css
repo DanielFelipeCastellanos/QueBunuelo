@@ -17,7 +17,6 @@ header {
   background-color: #ffffff;
 }
 
-
 header h1{
   font-size: 1.3rem;
   padding: 0;
@@ -26,37 +25,35 @@ header h1{
 
 nav {
   width: 100%;
-  justify-content: space-between;
   align-items: center;
   display: flex;
-  padding: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
   background-color: #EA2828;
 }
 
 .nav-bar{
   width: 100%;
-  position: fixed;
   display: flex;
+  padding-left: 2rem;
+  padding-right: 2rem;
   align-items: center;
   justify-content: space-between;
 }
 
-
-nav a {
+.nav-bar a {
   color: #ffffff
 }
 
-nav a:hover {
-  color: #000000;
+.nav-bar a:hover {
+  color: #3a1a1a;
 }
 
-.nav-bar h3{
-  width: 12.1rem;
+.nav-h3 { 
   text-align: left;
-  padding: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  background-color: darkgrey;
+  background-color: #f8e640;
+  align-items: center;
+}
+
+.nav-h3 h3 {
+  text-align: center;
+  color: #532121
 }
